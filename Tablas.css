@@ -1,0 +1,178 @@
+body{
+	font-family: Lucida Calligraphy;
+}
+footer {
+      background-color: #6E0001;
+    }
+    #logo{
+    	position: relative;
+    	top: -108%;
+    }
+.interior{
+	width: 770px;
+	margin: auto;
+	overflow: hidden;
+}
+.interior ul{
+display: flex;
+padding: 0;
+width: 400%;
+
+animation: cambio 20s infinite;
+animation-direction: alternate;
+}
+
+.interior li{
+	width: 70%;
+	list-style: none;
+}
+.interior img{
+	height: 75%;
+	width: 60%;
+}
+@keyframes cambio{
+	0%{ margin-left: 0; }
+	20%{ margin-left: 0; }
+
+	25%{ margin-left: -100%; }
+	45%{ margin-left: -100%; }
+
+	50%{ margin-left: -200%; }
+	70%{ margin-left: -200%; }
+
+	75%{ margin-left: -300%; }
+	100%{ margin-left: -300%; }
+}
+
+    nav.n{
+background: #6E0001;
+text-align: right; 
+width: 1348px;
+display: inline-block;
+list-style: none;
+}
+nav.n ul.n{
+display:inline-block;
+text-align: center
+}
+nav.n ul.n li.n{
+display: inline-block;
+list-style: none;
+font-size: 20px
+}
+nav.n ul.n li.n a.n{
+text-decoration: none; 
+color: black;
+}
+nav ul li{
+display: table; 
+list-style: none;
+font-size: 20px
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+nav{
+background:#98FB98;
+width: 180px;
+text-align: left;
+}
+nav.p{
+background: #6E0001;
+width: 950px;
+text-align: left;
+clear: both;
+}
+h1.especifico{
+font-family: Impact; 
+color:black;
+text-align: center;
+position: right
+}
+h2{ 
+color:white;
+position: right
+}
+img{
+position:  left
+}
+li:nth-last-of-type(1) a:hover{
+border-bottom: 3px  salmon;
+}
+li:nth-last-of-type(2) a:hover{
+border-bottom: 3px salmon;
+}
+li:nth-last-of-type(3) a:hover{
+border-bottom: 3px salmon;
+}
+li:nth-last-of-type(4) a:hover{
+border-bottom: 3px salmon;
+}
+li:nth-last-of-type(5) a:hover{
+border-bottom: 3px salmon;
+}
+li.espe{
+display: inline-block;
+margin: 0px -2px;
+}
+
+
+*{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	#navegacion{
+		margin: auto;
+		width: 500px;
+	}
+
+	ul, ol{
+		list-style: none;
+	}
+
+	#Lista li a{
+		background: #6E0001;
+		color: white;
+		text-decoration: none;
+		padding:10px 15px;
+		display: block;
+	}
+
+	#Lista > li{
+		float: right;
+	}
+
+	#Lista li a:hover{
+		background: #B0C4DE;
+	}
+
+	#Lista li ul{
+		display: none;
+		position: absolute;
+
+	}
+
+	#Lista li:hover > ul{
+		display: block;
+	}
+
+	<!-- Esta parte es para una lista desplegable dentro de otra lista desplegable-->
+
+	#Lista li ul li{
+		display: none;
+		position: relative;
+
+	}
+
+	#Lista li ul li ul{
+		right: -180px;
+		top: 0px;
+	}
+    h1{
+    	text-align: center;
+    }
+    h5{
+    	text-align: center;
+    }
